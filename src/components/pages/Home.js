@@ -4,7 +4,7 @@ import Footer from '../Footer'
 import Header from '../Header'
 import Main from '../Main'
 import Projects from '../Projects'
-import Timeline from '../Timeline'
+import Timeline from '../Timeline/Timeline'
 
 function Home() {
     return (
