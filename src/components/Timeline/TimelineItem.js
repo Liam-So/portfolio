@@ -4,59 +4,32 @@ function TimelineItem({ job }) {
     return (
         <div>
             {job.direction === "left" ? (
-                        <div className="flex flex-row w-full">
-                                <div className="w-2/5 px-2 py-10">
-                                    <div className="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
-                                        <div className="text-gray-600 mb-2 flex justify-between">
-                                            <div className="font-bold">
-                                                {job.title}
-                                            </div>
-                                            <div className="flex flex-row">
-                                                <button className="text-blue-500 mr-2 hover:text-blue-300 transition duration-200"><i className="far fa-edit"></i></button>
-                                                <button className="text-red-500 hover:text-red-300 transition duration-200"><i className="far fa-trash-alt"></i></button>
-                                            </div>
-                                        </div>
-                                        <p className="text-gray-600 mb-2">{job.company}</p>
-                                        <div className="text-gray-600">
-                                            {job.description}
-                                        </div>
-                                    </div>
-                                </div>
+                <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline text-gray-800">
+                    <div className="order-1 w-5/12"></div>
+                    <div className="order-1 w-5/12 px-1 py-4 text-right">
+                        <p className="mb-3 text-base font-semibold text-yellow-500 text-left">{job.year} {job.month}</p>
+                        <h4 className="mb-3 font-bold text-lg md:text-2xl text-left">{job.title}</h4>
+                        <h4 className="mb-3 font-bold text-lg md:text-xl text-left">{job.company}</h4>
 
-                                <div className="w-1/5  flex justify-center">
-                                    <div className="relative flex h-full w-1 bg-green-300 items-center justify-center">
-                                        <div className="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center z-10 bg-white font-thin">
-                                            <div>{job.year}</div>
-                                            <div>{job.month}</div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="w-2/5 px-2 py-10 "></div>
-                                </div>
+                        <ul className="list-disc text-sm md:text-base leading-snug text-gray-700 text-opacity-100 md:ml-4 text-left">
+                                                <li>{job.description1}</li>
+                                                <li>{job.description2}</li>
+                                                <li>{job.description3}</li>
+                                            </ul>
+                    </div>
+                </div>
                     ): (
-                        <div className="flex flex-row w-full">
-                                <div className="w-2/5 px-2 py-10"></div>
-                                <div className="w-1/5  flex justify-center">
-                                    <div className="relative flex h-full w-1 bg-green-300 items-center justify-center">
-                                        <div className="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center z-10 bg-white font-thin">
-                                            <div>{job.year}</div>
-                                            <div>{job.month}</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="w-2/5 px-2 py-10 ">
-                                    <div className="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
-                                        <div className="text-gray-600 mb-2 flex justify-between">
-                                            <div className="font-bold">
-                                                {job.title}
-                                            </div>
-                                            <p className="text-gray-600">{job.company}</p>
-                                        </div>
-                                        <div className="text-gray-600">
-                                            {job.description}
-                                        </div>
-                                        </div>
+                        <div className="mb-8 flex justify-between items-center w-full right-timeline text-gray-800">
+                                    <div className="order-1 w-5/12"></div>
+                                    <div className="order-1  w-5/12 px-1 py-4 text-justify">
+                                        <p className="mb-3 text-base font-semibold text-yellow-500">{job.year} {job.month}</p>
+                                        <h4 className="mb-3 font-bold text-lg md:text-2xl text-justify">{job.title}</h4>
+                                        <h4 className="mb-3 font-bold text-lg md:text-xl text-justify">{job.company}</h4>
+                                        <ul className="list-disc text-sm md:text-base leading-snug text-gray-700 text-opacity-100 md:ml-4 text-justify">
+                                                <li>{job.description1}</li>
+                                                <li>{job.description2}</li>
+                                                <li>{job.description3}</li>
+                                            </ul>
                                     </div>
                                 </div>
                     )}
