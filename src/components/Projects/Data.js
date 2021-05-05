@@ -15,9 +15,9 @@ export const project2 = {
 }
 
 export const project3 = {
-    name: "MERN Stack E-Commerce Application",
+    name: "Huffman Code",
     description: "Developed the Huffman Coding Compression Algorithm using Java to encode and decode text files. Achieved an A+ on the project.",
-    img: "https://www.flaticon.com/svg/vstatic/svg/682/682485.svg?token=exp=1620222997~hmac=88427f5a7f686ed3a3ddcc50cf4b47ac",
+    img: "/images/binary_tree.svg",
     link: "/",
     web: "Academic Project"
 }
