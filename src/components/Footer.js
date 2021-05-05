@@ -1,12 +1,18 @@
 import React from 'react'
+import { animateScroll as scroll } from 'react-scroll'
 
 function Footer() {
+
+    const toggleHome = () => {
+        scroll.scrollToTop()
+    }
+
     return (
         <footer className="bg-white">
             <div className="container mx-auto px-6 py-4">
                 <div className="flex justify-between items-center">
                     <div>
-                        <div className="text-gray-600">&copy; Liam So</div>
+                        <div className="text-gray-600 cursor-pointer" onClick={toggleHome}>&copy; Liam So</div>
                     </div>
 
                     <div className="flex items-center -mx-2">

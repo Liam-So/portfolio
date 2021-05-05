@@ -5,7 +5,7 @@ import TimelineItem from './TimelineItem.js'
 function Timeline() {
     return (
 
-        <section>
+        <section id="work">
             <div className="bg-white text-white py-8">
                 <div className="container mx-auto flex flex-col items-start my-12 md:my-24">
 

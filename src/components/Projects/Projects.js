@@ -4,7 +4,7 @@ import Project from './Project.js'
 
 function Projects() {
     return (
-        <section className="bg-fixed pattern py-20" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1447703693928-9cd89c8d3ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80)'}}>
+        <section id="projects" className="bg-fixed pattern py-20" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1447703693928-9cd89c8d3ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80)'}}>
             <div className="max-w-5xl px-6 mx-auto text-center">
                 <h2 className="text-2xl font-semibold text-white">Projects</h2>
 
