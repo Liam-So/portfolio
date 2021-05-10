@@ -2,7 +2,7 @@ export const job1 = {
     title: "Software Developer",
     description1: "Developed implementation of various features in Java Kafka Streams applications that supported tier 1 automative and entertainment clients.",
     description2: "Enhanced a RESTful API application to accommodate heavy traffic users for specific data entities.",
-    description3: "Participated in software redesigns to make code more flexible, readable, and robust. Relieved applications of technical debt to improve the logevity of the",
+    description3: "Participated in software redesigns to make code more flexible, readable, and robust. Relieved applications of technical debt to improve the longevity of the codebase.",
     direction: "left",
     company: "Gracenote Inc.",
     year: "2021",
