@@ -16,8 +16,8 @@ export const project2 = {
 
 export const project3 = {
     name: "Huffman Code",
-    description: "Developed the Huffman Coding Compression Algorithm using Java to encode and decode text files. Achieved an A+ on the project.",
-    img: "https://static.thenounproject.com/png/3365226-200.png",
-    link: "/",
-    web: "Academic Project"
+    description: "Bug Tracker application using Firebase, Express, React, and Typescript to maximize project productivity by monitoring tickets for a team of developers.",
+    img: "https://www.svgrepo.com/show/62126/bug.svg",
+    link: "https://github.com/Liam-So/bug_tracker",
+    web: "Github.com"
 }
