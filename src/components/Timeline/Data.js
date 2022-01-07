@@ -15,7 +15,7 @@ export const job2 = {
     description2: "Enhanced a RESTful API application to accommodate heavy traffic by users for specific data entities.",
     description3: "Relieved applications of technical debt to improve the longevity of the codebase.",
     direction: "right",
-    company: "Densitas Inc.",
+    company: "Gracenote",
     year: "2020",
     month: "Jan-Apr"
 }

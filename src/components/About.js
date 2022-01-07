@@ -50,7 +50,7 @@ function About() {
 
                   <div className="flex-grow ">
                     <h2 className=" text-xl title-font font-medium mb-3 text-center">Professional Experience</h2>
-                    <p className="leading-relaxed text-sm text-center tracking-tight">Professional programming experience using Java, Python, and PHP. Worked with industry standard tools such as Jenkins, Docker, and Jira, among many others. </p>
+                    <p className="leading-relaxed text-sm text-center tracking-tight">Professional programming experience using Java, Python, PHP, JavaScript. Worked with industry standard tools such as Jenkins, Docker, and Jira, among many others. </p>
                   </div>
                 </div>
               </div>
@@ -67,7 +67,7 @@ function About() {
 
                   <div className="flex-grow ">
                     <h2 className=" text-xl title-font font-medium mb-3 text-center">Backend Development</h2>
-                    <p className="leading-relaxed text-sm text-center">Worked with backend tools and technologies which include Express, Firebase, MongoDB, PSQL, SQL, Docker, and Jenkins.</p>
+                    <p className="leading-relaxed text-sm text-center">Worked with backend tools and technologies which include Flask, Kafka Streams, Express, Firebase, MongoDB, SQL, Docker, and Jenkins.</p>
                   </div>
                 </div>
               </div>
