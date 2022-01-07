@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AACA,cAAc,CACd,oBAAoB,CACpB,mBAAmB","file":"main.2b99d55c.chunk.css","sourcesContent":["/* ./src/index.css */\n@tailwind base;\n@tailwind components;\n@tailwind utilities;"]}
